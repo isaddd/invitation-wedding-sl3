@@ -693,16 +693,16 @@
 
       //save the date
       function saveToGoogleCalendar() {
-        // Google Calendar URL format for adding events
+        // Event details
         const eventTitle = "Wedding of Irsyad and Fanny";
         const eventDetails = "Wedding of Irsyad and Fanny";
-        const eventLocation = "Niekmat Rasa";
-        const eventStartDate = "2025-02-23T10:00:00"; // YYYY-MM-DDTHH:MM:SS
-        const eventEndDate = "2025-02-23T12:00:00";
+        const eventLocation = "Selera Jawa Sunda";
+        const eventStartDate = "2025-02-23T10:00:00"; // Start time in UTC
+        const eventEndDate = "2025-02-23T12:00:00"; // End time in UTC
+        const timeZone = "Asia/Jakarta"; // Timezone (adjust as needed)
 
-        const googleCalendarURL = `https://www.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(eventTitle)}&details=${encodeURIComponent(eventDetails)}&location=${encodeURIComponent(
-          eventLocation
-        )}&dates=${eventStartDate}/${eventEndDate}`;
+        // Constructing the Google Calendar URL
+        const googleCalendarURL = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(eventTitle)}&details=${encodeURIComponent(eventDetails)}&location=${encodeURIComponent(eventLocation)}&dates=${eventStartDate.replace(/[-:]/g, "")}/${eventEndDate.replace(/[-:]/g, "")}&ctz=${encodeURIComponent(timeZone)}`;
 
         // Redirect the user to the Google Calendar event page
         window.open(googleCalendarURL, "_blank");
