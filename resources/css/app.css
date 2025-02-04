@@ -1,0 +1,511 @@
+/* fonts */
+.beau {
+    font-family: "Beau Rivage", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.abhaya-regular {
+    font-family: "Abhaya Libre", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.abhaya-medium {
+    font-family: "Abhaya Libre", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.abhaya-semibold {
+    font-family: "Abhaya Libre", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.abhaya-bold {
+    font-family: "Abhaya Libre", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.abhaya-extrabold {
+    font-family: "Abhaya Libre", serif;
+    font-weight: 800;
+    font-style: normal;
+}
+.carattere {
+    font-family: "Carattere", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* font-size */
+.f12 {
+    font-size: 12px;
+}
+
+.f14 {
+    font-size: 14px;
+}
+
+.f16 {
+    font-size: 16px;
+}
+
+.f18 {
+    font-size: 18px;
+}
+
+.f20 {
+    font-size: 20px;
+}
+
+.f22 {
+    font-size: 22px;
+}
+
+.f24 {
+    font-size: 24px;
+}
+
+.f26 {
+    font-size: 26px;
+}
+
+.f28 {
+    font-size: 28px;
+}
+
+.f30 {
+    font-size: 30px;
+}
+
+.f32 {
+    font-size: 32px;
+}
+
+.f34 {
+    font-size: 34px;
+}
+
+.f36 {
+    font-size: 36px;
+}
+
+.f38 {
+    font-size: 38px;
+}
+
+.f40 {
+    font-size: 40px;
+}
+
+.f42 {
+    font-size: 42px;
+}
+
+.f44 {
+    font-size: 44px;
+}
+
+.f46 {
+    font-size: 46px;
+}
+
+.f48 {
+    font-size: 48px;
+}
+
+/*  */
+html,
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+    background-color: #000;
+}
+.full {
+    height: 100vh;
+    width: 100vw;
+    background: #000;
+}
+.full-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 9999; /* Ensure it's on top of other content */
+    opacity: 1; /* Fully visible */
+    transition: opacity 0.5s ease; /* Smooth fade-out effect */
+}
+.surat-title-1 {
+    position: absolute;
+    top: 15%;
+    text-align: center;
+    color: #fff;
+}
+.surat-title-2 {
+    position: absolute;
+    bottom: 10%;
+    text-align: center;
+    color: #fff;
+}
+.btn-undangan {
+    background: #ffd700;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    color: black;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+        rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.hero {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+.hero-slider {
+    height: 100vh;
+    width: 100vw;
+}
+.title-hero {
+    position: absolute;
+    bottom: 15px;
+    color: #fff;
+    z-index: 2;
+}
+.countdown ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.countdown ul li {
+    background: #0e0e0e;
+    border-radius: 20px;
+    width: 60px;
+    height: 100px;
+    font-family: "Abhaya Libre", serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 25px;
+    line-height: 1.1;
+    text-align: center;
+    margin: 0 5px;
+    box-shadow: rgba(84, 84, 84, 0.5) -2px -2px 7px 1px inset;
+}
+.divider-love {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.divider {
+    height: 1.3px;
+    width: 90px;
+    background-color: #fff;
+}
+.img-swiper {
+    width: 20px;
+    height: 10px;
+    overflow: hidden !important;
+    margin: 0;
+}
+.btn-date {
+    margin: auto;
+    display: flex;
+    align-items: center; /* Vertically center items */
+    justify-content: center; /* Horizontally center items */
+    text-decoration: none;
+    background: #ffd700;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    color: black;
+    width: fit-content;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+        rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.btn-ig {
+    margin: auto;
+    display: flex;
+    align-items: center; /* Vertically center items */
+    justify-content: center; /* Horizontally center items */
+    text-decoration: none;
+    background: #ffd700;
+    padding: 8px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    color: black;
+    width: fit-content;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+        rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.bg-qs {
+    background: url("/img/white-1.JPG");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.overlay-qs {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.overlay-qs-content {
+    position: relative;
+    z-index: 2 !important;
+    text-align: center;
+    color: #fff;
+}
+.bg-date {
+    background: url("/img/cream-1.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.overlay-date {
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.overlay-date-content {
+    position: relative;
+    z-index: 2 !important;
+    text-align: center;
+    color: #000;
+}
+.bg-date-1 {
+    background: url("/img/black-1.JPG");
+    background-position: center;
+    background-size: cover;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    border-radius: 1000px 1000px 0 0;
+    color: #fff;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+        rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.overlay-date-1 {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 1000px 1000px 0 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.overlay-date-1-content {
+    position: relative;
+    z-index: 2 !important;
+    text-align: center;
+    color: #fff;
+}
+.bg-date-2 {
+    background: url("/img/black-2.JPG");
+    background-position: center;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    border-radius: 0 0 1000px 1000px;
+    color: #fff;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+        rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.overlay-date-2 {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 0 0 1000px 1000px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.overlay-date-2-content {
+    position: relative;
+    z-index: 2 !important;
+    text-align: center;
+    color: #fff;
+}
+.gradient-banner {
+    width: 100%;
+    height: 100%;
+    bottom: -1px;
+    left: 0;
+    position: absolute;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 1) 0%,
+        rgba(0, 0, 0, 0) 90%
+    );
+    z-index: 1;
+}
+.gallery {
+    max-width: 1200px;
+    margin: 0 auto;
+    column-count: 4;
+    font-family: arial;
+}
+.gallery-item {
+    break-inside: avoid;
+    margin-bottom: 16px;
+}
+.gallery-item figure {
+    margin: 0;
+    position: relative;
+}
+.gallery-item figcaption {
+    font-style: italic;
+    padding: 8px;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    box-sizing: border-box;
+    bottom: 3px;
+    color: #fff;
+    height: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    border-radius: 0 0 14px 14px;
+}
+.gallery-item img {
+    width: 100%;
+    border-radius: 14px;
+}
+.gallery-item p {
+    margin: 0;
+    padding: 8px;
+}
+
+@media screen and (max-width: 500px) {
+    .gallery {
+        column-count: 2;
+    }
+}
+@media screen and (min-width: 501px) and (max-width: 700px) {
+    .gallery {
+        column-count: 2;
+    }
+}
+@media screen and (min-width: 701px) and (max-width: 900px) {
+    .gallery {
+        column-count: 3;
+    }
+}
+.bank {
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 3px 8px;
+    position: relative;
+    overflow: hidden;
+}
+.blur {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 20px;
+    z-index: 1;
+    backdrop-filter: blur(5px);
+    background: #ffffff86;
+}
+.btn-copy {
+    all: unset;
+    margin: auto;
+    display: flex;
+    align-items: center; /* Vertically center items */
+    justify-content: center; /* Horizontally center items */
+    text-decoration: none;
+    background: #ffd700;
+    padding: 8px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    color: black;
+    width: fit-content;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+        rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.popup {
+    display: none; /* Hidden by default */
+    position: fixed;
+    width: max-content;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7); /* Dark background */
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    z-index: 1000;
+}
+.bg-gift {
+    background: url("/img/white-1.JPG");
+    background-position: top;
+    background-size: cover;
+    position: relative;
+}
+.overlay-gift {
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.overlay-gift-content {
+    position: relative;
+    z-index: 2 !important;
+    text-align: center;
+    color: #000;
+}
+.bg-footer {
+    background: url("/img/footer.JPG");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.overlay-footer {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.overlay-footer-content {
+    position: relative;
+    z-index: 2 !important;
+    text-align: center;
+    color: #000;
+}
